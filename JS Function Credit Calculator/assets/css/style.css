@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  text-align: center;
+  margin: 3rem auto;
+  border: 1px solid hsl(0deg, 0%, 98%);
+  background-color: hsl(0deg, 0%, 98%);
+  border-radius: 20px;
+  width: 50%;
+}
+.all h1 {
+  font-size: 4rem;
+  color: #3d5926;
+  margin: 2rem 0;
+}
+.all input, .all select {
+  width: 250px;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #888888;
+  border: 1px solid #BCBCBC;
+  border-radius: 5px;
+  outline: none;
+}
+.all label {
+  display: block;
+  margin: 1rem 0;
+  color: #80B554;
+}
+.all #btn {
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #3d5926;
+  font-size: 18px;
+  text-align: center;
+  padding: 13px 35px;
+  cursor: pointer;
+  margin: 2rem 0 1rem;
+}
+.all #btn:hover {
+  background-color: hsl(93deg, 40%, 20%);
+}
+.all p {
+  color: #888888;
+  font-size: 16px;
+  margin: 0rem 0 1rem;
+}/*# sourceMappingURL=style.css.map */
